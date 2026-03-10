@@ -1,3 +1,14 @@
+
+
+# Create fresh env
+#python -m venv rag_env
+#source rag_env/bin/activate       # Mac/Linux
+#rag_env\Scripts\activate          # Windows
+
+
+# Install everything clean
+#pip install transformers torch sentence-transformers numpy huggingface_hub'''
+
 from transformers import pipeline
 from PIL import Image
 import requests
